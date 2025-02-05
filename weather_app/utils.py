@@ -19,6 +19,6 @@ def format_weather_data(weather_data):
         return 'No weather data available'
 
     return (
-        f"Temperature: {weather_data.get('temperature_2m', 'N/A')}°C\n"
-        f"Wind Speed: {weather_data.get('wind_speed_10m', 'N/A')} km/h"
+        f'Temperature: {weather_data.get("temperature_2m", "N/A")}°C\n'
+        f'Wind Speed: {weather_data.get("wind_speed_10m", "N/A")} km/h'
     )
